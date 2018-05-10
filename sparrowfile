@@ -1,4 +1,2 @@
-my $user         = config<user>;
-my $install-base = config<install-base>;
-
-bash "echo $user at $install-base - hello from Sparrlet";
+my $name  = config<name>;
+bash "echo Hi $name, I am Sparrlet";
