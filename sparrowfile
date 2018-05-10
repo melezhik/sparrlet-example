@@ -1,1 +1,4 @@
-bash "echo hello from Sparrlet";
+my $user         = config<user>;
+my $install-base = config<install-base>;
+
+bash "echo $user at $insta-base - hello from Sparrlet";
